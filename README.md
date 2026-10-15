@@ -7,9 +7,9 @@
 **语音输入是主能力，跨设备文字传输是其中一部分。**
 
 - [0.7测试版下载：Android APK＋Windows ZIP](https://github.com/AI-Dashen/VoiceInput2PC/releases/tag/v0.7.0-testing)
-- [0.8系统输入法：架构、分支与本机开发状态](https://github.com/AI-Dashen/VoiceInput2PC/blob/main/docs/INPUT_METHOD.md)
+- [0.8系统输入法：已上传的源码、架构与构建说明](https://github.com/AI-Dashen/VoiceInput2PC/blob/main/docs/INPUT_METHOD.md)
 
-0.7为预发布，GitHub的Latest仍指0.6.1；0.8本机后续代码尚未完整上传，不以旧FUTO实验仓库冒充。
+0.7为预发布，GitHub的Latest仍指0.6.1；0.8自有IME最新源码已上传开发分支；闭源模型及运行库不随源码提供。
 
 ## 把真实设备，接成能工作的工具链
 
