@@ -2,9 +2,18 @@
 
 > 专注解决真实工程痛点：把安卓手机现有输入法变成 Windows 的加密语音输入终端（VoiceInput2PC）；在 Android/Termux ARM64 环境推进大体积 APK 索引与按需反编译分析（rea 分支增强）；构建基于 yt-dlp 与 whisper.cpp 的 Windows 本地视频转写与故事卡生成流水线（douyin-story-pipeline）。
 
+## 万能语音输入法：版本与开发入口
+
+**语音输入是主能力，跨设备文字传输是其中一部分。**
+
+- [0.7测试版下载：Android APK＋Windows ZIP](https://github.com/AI-Dashen/VoiceInput2PC/releases/tag/v0.7.0-testing)
+- [0.8系统输入法：架构、分支与本机开发状态](https://github.com/AI-Dashen/VoiceInput2PC/blob/main/docs/INPUT_METHOD.md)
+
+0.7为预发布，GitHub的Latest仍指0.6.1；0.8本机后续代码尚未完整上传，不以旧FUTO实验仓库冒充。
+
 ## 把真实设备，接成能工作的工具链
 
-### [Android/Termux 逆向分析工作台增强版 · rea](https://github.com/AI-Dashen/rea)
+### [逆向分析工坊｜Reverse Engineering Workbench](https://github.com/AI-Dashen/rea)
 
 将大体积 APK 索引、按需反编译与受控 Frida 挂载带入 Android/Termux ARM64 环境。
 
@@ -16,7 +25,7 @@
 
 [查看实现、使用示例与验证范围 →](https://github.com/AI-Dashen/rea)
 
-### [手机语音输入电脑 · VoiceInput2PC](https://github.com/AI-Dashen/VoiceInput2PC)
+### [万能语音输入法｜Universal Voice Input](https://github.com/AI-Dashen/VoiceInput2PC)
 
 不买麦克风、不传音频流，直接用口袋里的手机输入法向电脑光标位置安全口述文字。
 
@@ -28,7 +37,7 @@
 
 [查看实现、使用示例与验证范围 →](https://github.com/AI-Dashen/VoiceInput2PC)
 
-### [影记 ClipScribe：本地短视频转写与故事卡流水线 · douyin-story-pipeline](https://github.com/AI-Dashen/douyin-story-pipeline)
+### [影记｜ClipScribe](https://github.com/AI-Dashen/douyin-story-pipeline)
 
 输入公开视频链接，在 Windows 本机自动完成限速下载、whisper.cpp 离线转写与结构化故事卡生成。
 
